@@ -1,0 +1,175 @@
+.gameScoreArea{
+  text-align: center;
+}
+
+.gameScore{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.gameCount{
+  min-width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player{
+  background-color: rgb(210, 210, 210);
+}
+
+.pointDetail{
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.pointButton{
+  width: 40%;
+}
+
+.missButton{
+  width: 40%;
+}
+
+.playerName{
+  border: solid black;
+  background-color: white;
+}
+
+.navigateArea{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.serveButton{
+  margin-top: 5px;
+  width: 150px;
+}
+
+.backToServeResult{
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.backToServeResultButton{
+  background-color: rgb(75, 78, 135);
+  color: white ;
+  width: 70px;
+}
+
+.displaySingles{
+  display: flex;
+  justify-content: center;
+}
+
+.displayPointOrMiss{
+  display: flex;
+  width: 320px;
+  border-bottom: solid;
+}
+
+.pointCount{
+  min-width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid;
+  border-right: solid;
+  border-left: solid;
+
+}
+
+.detailPointorMiss{
+  width: 150px;
+  padding-left: 10px;
+}
+
+.pointScore{
+  min-width: 80px;
+}
+
+.detailPoitOrMissData{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.resultWithReceive{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-decoration:underline;
+}
+
+.resultWithoutReceive{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.startFirstServe{
+  margin:  0 5px 0 0;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.startSecondServe{
+  margin:  0 5px 0 0;
+  border: 1px solid white;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.getGame{
+  margin:  5px;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.winner{
+  margin:  5px;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.teamPoint{
+  margin: 5px;
+  border: 1px solid white;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.teamGame{
+  margin: 5px;
+  border: 1px solid white;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+}
